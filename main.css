@@ -1,5 +1,7 @@
-h2 {
+h2,
+h3 {
   text-align: center;
+  margin: 0.5rem;
 }
 
 table {
@@ -13,5 +15,5 @@ thead > tr > td {
 }
 
 td {
-  padding: 0 1rem
+  padding: 0 1rem;
 }
