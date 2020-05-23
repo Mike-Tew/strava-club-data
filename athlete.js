@@ -8,7 +8,7 @@ const data = [
   {
     "name": "Adam Tew",
     "url": "https://www.strava.com/athletes/32318288",
-    "mileage": 50.1
+    "mileage": 50.02
   },
   {
     "name": "Mike Tew",
