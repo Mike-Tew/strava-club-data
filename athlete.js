@@ -3,17 +3,17 @@ const data = [
   {
     "name": "Matt Simpson",
     "url": "https://www.strava.com/athletes/2144218",
-    "mileage": 28.35
+    "mileage": 32.86
   },
   {
     "name": "Adam Tew",
     "url": "https://www.strava.com/athletes/32318288",
-    "mileage": 50.02
+    "mileage": 56.3
   },
   {
     "name": "Mike Tew",
     "url": "https://www.strava.com/athletes/380955",
-    "mileage": 56.22
+    "mileage": 58.92
   },
   {
     "name": "Rachel Bailie",
@@ -23,7 +23,7 @@ const data = [
   {
     "name": "Diana Tew",
     "url": "https://www.strava.com/athletes/29046150",
-    "mileage": 37.03
+    "mileage": 44.78
   },
   {
     "name": "Krissy \u270c\ufe0f",
@@ -38,7 +38,7 @@ const data = [
   {
     "name": "Mishelae Tew",
     "url": "https://www.strava.com/athletes/32714021",
-    "mileage": 51.49
+    "mileage": 56.02
   },
   {
     "name": "Donald Bailie",
