@@ -20,5 +20,9 @@ const filterData = (data) => {
 
 filterData(data);
 
+document.getElementById('january').addEventListener('click', () => filterData(januaryData))
+document.getElementById('february').addEventListener('click', () => filterData(februaryData))
+document.getElementById('march').addEventListener('click', () => filterData(marchData))
+document.getElementById('april').addEventListener('click', () => filterData(aprilData))
 document.getElementById('may').addEventListener('click', () => filterData(mayData))
 document.getElementById('june').addEventListener('click', () => filterData(data))
