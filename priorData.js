@@ -36,7 +36,7 @@ const mayData = [
   }
 ]
 
-const aprilData = [
+const aprData = [
   {
     "name": "Matt Simpson",
     "url": "https://www.strava.com/athletes/2144218",
@@ -74,7 +74,7 @@ const aprilData = [
   }
 ]
 
-const marchData = [
+const marData = [
   {
     "name": "Matt Simpson",
     "url": "https://www.strava.com/athletes/2144218",
@@ -112,7 +112,7 @@ const marchData = [
   }
 ]
 
-const februaryData = [
+const febData = [
   {
     "name": "Matt Simpson",
     "url": "https://www.strava.com/athletes/2144218",
@@ -150,7 +150,7 @@ const februaryData = [
   }
 ]
 
-const januaryData = [
+const janData = [
   {
     "name": "Matt Simpson",
     "url": "https://www.strava.com/athletes/2144218",

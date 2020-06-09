@@ -2,7 +2,6 @@
 document.getElementById('date').innerHTML = dayOfMonth;
 
 const filterData = (data) => {
-
   // Filter and sort athlete data
   const newData = data
     .filter((athlete) => athlete.mileage > 0)
@@ -10,7 +9,7 @@ const filterData = (data) => {
 
   // Create table rows with new data
   const table = document.getElementById('tbody');
-  table.innerHTML = "";
+  table.innerHTML = '';
   newData.map((athlete, index) => {
     const row = table.insertRow(index);
     row.insertCell(0).innerHTML = athlete.name;
@@ -20,9 +19,10 @@ const filterData = (data) => {
 
 filterData(data);
 
-document.getElementById('january').addEventListener('click', () => filterData(januaryData))
-document.getElementById('february').addEventListener('click', () => filterData(februaryData))
-document.getElementById('march').addEventListener('click', () => filterData(marchData))
-document.getElementById('april').addEventListener('click', () => filterData(aprilData))
-document.getElementById('may').addEventListener('click', () => filterData(mayData))
-document.getElementById('june').addEventListener('click', () => filterData(data))
+monthArray = [janData, febData, marData, aprData, mayData, data];
+
+monthArray.map((month, index) => {
+  document
+    .getElementById(`month-${index}`)
+    .addEventListener('click', () => filterData(month));
+});
