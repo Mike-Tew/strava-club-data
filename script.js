@@ -1,7 +1,23 @@
+monthArray = [janData, febData, marData, aprData, mayData, junData, data];
+monthNames = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December'
+];
+
 // Insert day of the month
 document.getElementById('date').innerHTML = dayOfMonth;
 
-const filterData = (data) => {
+const filterData = (data, monthIndex) => {
   // Filter and sort athlete data
   const newData = data
     .filter((athlete) => athlete.mileage > 0)
@@ -15,14 +31,18 @@ const filterData = (data) => {
     row.insertCell(0).innerHTML = athlete.name;
     row.insertCell(1).innerHTML = athlete.mileage;
   });
+
+  // Set header to the month button that was clicked
+  document.getElementById('heading').innerHTML = monthNames[monthIndex] || "July";
+
 };
 
 filterData(data);
 
-monthArray = [janData, febData, marData, aprData, mayData, data];
+
 
 monthArray.map((month, index) => {
   document
     .getElementById(`month-${index}`)
-    .addEventListener('click', () => filterData(month));
+    .addEventListener('click', () => filterData(month, index));
 });
