@@ -1,4 +1,4 @@
-const dayOfMonth = 'July 08 - 12:19PM'
+const dayOfMonth = 'July 09 - 07:05AM'
 const data = [
   {
     "name": "Mike Tew",
