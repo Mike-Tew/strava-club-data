@@ -1,4 +1,15 @@
-monthArray = [janData, febData, marData, aprData, mayData, junData, julData, data];
+monthArray = [
+  janData,
+  febData,
+  marData,
+  aprData,
+  mayData,
+  junData,
+  julData,
+  augData,
+  data
+];
+
 monthNames = [
   'January',
   'February',
@@ -34,7 +45,7 @@ const filterData = (data, monthIndex) => {
 
   // Set header to the month button that was clicked
   document.getElementById('heading').innerHTML =
-    monthNames[monthIndex] || 'August';
+    monthNames[monthIndex] || 'September';
 };
 
 filterData(data);
