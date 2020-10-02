@@ -1,4 +1,4 @@
-const dayOfMonth = 'October 02 - 07:57AM'
+const dayOfMonth = 'October 02 - 08:03AM'
 const data = [
   {
     "name": "Hyrum Tew",
@@ -8,26 +8,26 @@ const data = [
   {
     "name": "Mike Tew",
     "url": "https://www.strava.com/athletes/380955",
-    "mileage": 82.94
+    "mileage": 6.26
   },
   {
     "name": "Adam Tew",
     "url": "https://www.strava.com/athletes/32318288",
-    "mileage": 12.43
+    "mileage": 0
   },
   {
     "name": "Diana Tew",
     "url": "https://www.strava.com/athletes/29046150",
-    "mileage": 1.16
+    "mileage": 0
   },
   {
     "name": "Matt Simpson",
     "url": "https://www.strava.com/athletes/2144218",
-    "mileage": 8.2
+    "mileage": 0
   },
   {
     "name": "Mishelae Tew",
     "url": "https://www.strava.com/athletes/32714021",
-    "mileage": 0.44
+    "mileage": 0
   }
 ]
