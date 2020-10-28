@@ -1,4 +1,4 @@
-const dayOfMonth = 'October 27 - 11:52PM'
+const dayOfMonth = 'October 28 - 11:01AM'
 const data = [
   {
     "name": "Hyrum Tew",
@@ -8,7 +8,7 @@ const data = [
   {
     "name": "Mike Tew",
     "url": "https://www.strava.com/athletes/380955",
-    "mileage": 105.04
+    "mileage": 106.04
   },
   {
     "name": "Adam Tew",
