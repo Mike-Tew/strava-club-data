@@ -3,7 +3,7 @@ const data = [
   {
     "name": "Hyrum Tew",
     "url": "https://www.strava.com/athletes/33650581",
-    "mileage": 3.6
+    "mileage": 3.60
   },
   {
     "name": "Mike Tew",
@@ -13,7 +13,7 @@ const data = [
   {
     "name": "Adam Tew",
     "url": "https://www.strava.com/athletes/32318288",
-    "mileage": 22.6
+    "mileage": 22.60
   },
   {
     "name": "Diana Tew",
