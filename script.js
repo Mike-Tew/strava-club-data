@@ -8,6 +8,7 @@ monthArray = [
   julData,
   augData,
   sepData,
+  octData,
   data
 ];
 
@@ -46,7 +47,7 @@ const filterData = (data, monthIndex) => {
 
   // Set header to the month button that was clicked
   document.getElementById('heading').innerHTML =
-    monthNames[monthIndex] || 'October';
+    monthNames[monthIndex] || 'November';
 };
 
 filterData(data);
